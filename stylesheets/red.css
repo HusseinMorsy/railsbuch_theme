@@ -1,0 +1,14 @@
+th {
+	color:#CC2626;
+}
+.articleinfo a {
+	color:#CC2626;
+}
+ul#nav {
+	background:#DF5353;
+	border-top:3px solid #CC2626;
+	border-bottom:3px solid #CC2626;
+}
+ul#nav li a:hover {
+	background:#DB3939;
+}

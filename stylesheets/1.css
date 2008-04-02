@@ -5,14 +5,14 @@ body {
 	font: 16px/1.95em "Lucida Grande","Lucida Sans Unicode",geneva,verdana,sans-serif;
 	margin:0;
 	color:#666;
-	padding-top:20px;
+	padding-top:10px;
 	border:3px solid #eee;
 }
 
 html {
-	border:15px solid #f6f6f6;
-	border-left:30px solid #f6f6f6;
-	border-right:30px solid #f6f6f6;
+	border:15px solid #000;
+	border-left:30px solid #000;
+	border-right:30px solid #000;
 }
 
 * {
@@ -178,7 +178,7 @@ blockquote {
 #content h2 {
 	font:190% Times;
 	margin-top:45px;
-}
+} 
 
 #content h2 a {
 	color:#333;
@@ -190,7 +190,7 @@ blockquote {
 	margin:0 auto;
 	padding:20px 0;
 }
-
+  
 #header .right {
 	float:right;
 }
@@ -226,7 +226,7 @@ ul#nav {
 	padding:10px;
 	font-size:80%;
 	font-weight:bold;
-	margin:45px 0 0 0;
+	margin:10px 0 0 0;
 }
 
 ul#nav li {

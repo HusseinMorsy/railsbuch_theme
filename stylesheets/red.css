@@ -1,13 +1,13 @@
 th {
-	color:#CC2626;
+	color:#7C1515;
 }
 .articleinfo a {
-	color:#CC2626;
+	color:#7C1515;
 }
 ul#nav {
-	background:#DF5353;
-	border-top:3px solid #CC2626;
-	border-bottom:3px solid #CC2626;
+	background:#AD1D15;
+	border-top:3px solid #7C1515;
+	border-bottom:3px solid #7C1515;
 }
 ul#nav li a:hover {
 	background:#DB3939;

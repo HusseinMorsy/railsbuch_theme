@@ -8,27 +8,6 @@ html {
    position: relative;
 }
 
-#header h2 {
-  position: absolute;
-  top: 10px;
-  left: 180px;
-}
-#header h3 {
-  position: absolute;
-  top: 50px;
-  left: 180px;
-  margin: 0;
-}
-
-#header p {
-  position: absolute;
-  font-size: 60%;   
-  top: 80px;
-  left: 180px;
-  line-height: 20px;
-}
-
-
 #header h1 {
   text-indent: -1000px;
 	margin-left:15px;
@@ -39,3 +18,28 @@ html {
 /*  background: #DDD url(/images/railsbuch.jpg) repeat/repeat-x/repeat-y/no-repeat scroll/fixed top left/top center/top right/center left/center center/center right/bottom left/bottom center/bottom right/x-% y-%/x-pos y-pos;*/
   background-image: url(/images/railsbuch.jpg);
 }
+
+
+#header h2 {
+  position: absolute;
+  top: 10px;
+  left: 180px;
+  font-size: 180%;
+}
+#header h3 {
+  position: absolute;
+  top: 50px;
+  left: 180px;
+  margin: 0;
+  font-size: 120%;
+}
+
+#header p {
+  position: absolute;
+  font-size: 120%;   
+  top: 80px;
+  left: 180px;
+  line-height: 20px;
+}
+
+

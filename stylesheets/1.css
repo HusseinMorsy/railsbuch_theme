@@ -2,7 +2,7 @@
 
 body {
 	background:#fff;
-	font: 16px/1.95em "Lucida Grande","Lucida Sans Unicode",geneva,verdana,sans-serif;
+	font: 12px/1.2em "Lucida Grande","Lucida Sans Unicode",geneva,verdana,sans-serif;
 	margin:0;
 	color:#666;
 	padding-top:10px;
@@ -22,7 +22,7 @@ html {
 }
 
 #footer {
-	padding:5px 50px;
+	padding:5px 25px;
 	margin-top:50px;
 	clear:both;
 	border-top:2px solid #eee;
@@ -224,7 +224,7 @@ blockquote {
 
 ul#nav {
 	padding:10px;
-	font-size:80%;
+	font-size:110%;
 	font-weight:bold;
 	margin:10px 0 0 0;
 }

@@ -1,0 +1,9 @@
+#contact_author,
+#contact_author_email,
+#contact_subject {
+  width: 30em;
+} 
+
+#contact_body {
+  width: 50em;
+}

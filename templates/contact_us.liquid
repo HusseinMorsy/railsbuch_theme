@@ -1,0 +1,20 @@
+<h2>Kontakt</h2>
+
+{% contactform %}
+<p>
+  <label for="author"><small>Ihr Name</small></label><br />
+  {{ form.name }}
+</p>
+<p>
+  <label for="email"><small>E-Mail</small></label><br />
+  {{ form.email }}
+</p>
+<p>
+  <label for="subject"><small>Betreff</small></label><br />
+  {{ form.subject}}
+</p>
+<p>
+  <label for="Nachricht"><small>Nachricht:</small></label><br />
+  {{ form.body }}</p>
+<p>{{ form.submit }}</p>
+{% endcontactform %}

@@ -3,9 +3,9 @@
 	<ol class="commentlist">
 	{% for comment in article.comments %}
 		<li class="{% cycle 'alt', '' %}" id="comment-{{ comment.id }}">
-			<cite>{{ comment.author_link }}</cite> Says:
+			<cite>{{ comment.author_link }}</cite> antwortet:
 			<br />
-			<small class="commentmetadata"><a href="#comment-{{ comment.id }}" title="">{{ comment.created_at |  date: '%d.%m.%Y um %H:%M'}} at {{ comment.created_at | format_date: 'time_only' }}</a></small>
+			<small class="commentmetadata"><a href="#comment-{{ comment.id }}" title="">{{ comment.created_at |  date: '%d.%m.%Y um %H:%M'}}</a></small>
 			{{ comment.body }}
 		</li>
   {% endfor %}

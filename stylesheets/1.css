@@ -2,7 +2,7 @@
 
 body {
 	background:#fff;
-	font: 12px/1.2em "Lucida Grande","Lucida Sans Unicode",geneva,verdana,sans-serif;
+	font: 12px "Lucida Grande","Lucida Sans Unicode",geneva,verdana,sans-serif;
 	margin:0;
 	color:#666;
 	padding-top:10px;
@@ -141,7 +141,7 @@ td {
 	font:80% Verdana;
 	border-top:1px solid #eee;
 	color:#999;
-	padding:20px 0;
+	padding:10px 0;
 }
 
 .articleinfo a:hover {
@@ -160,8 +160,8 @@ blockquote {
 }
 
 #content p {
-	line-height:30px;
-	margin:20px 0;
+	line-height:20px;
+	margin:10px 0;
 	word-spacing:2px;
 }
 

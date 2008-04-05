@@ -1,5 +1,7 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">  
 {% head %}
 <title>{{ site.title }} - {% if article %} {{ article.title }} {% else %} {{ site.subtitle }}  {% endif %}</title>
 <meta http-equiv="content-type" content="text/html; charset=utf-8" />
@@ -35,8 +37,8 @@
 			<div id="sidebar">
 			<h3>Search</h3>
       		<form method="get" id="sform" action="/search">
-       		 <label for="q">Search:</label>
-				<input type="text" id="q" value="" name="q" size="15" />
+       		 <p><label for="q">Search:</label>
+				<input type="text" id="q" value="" name="q" size="15" /></p>
 				</form>
 				<h3>Categories</h3>
 				<ul>
@@ -51,7 +53,7 @@
 		
 		</div>
 		<div id="footer">
-<p class="validate"><a href="http://validator.w3.org/check?uri=referer">XHTML</a> | <a href="http://jigsaw.w3.org/css-validator/">CSS</a><a href="#content"></p>
+<p class="validate"><a href="http://validator.w3.org/check?uri=referer">XHTML</a> | <a href="http://jigsaw.w3.org/css-validator/">CSS</a></p>
 
 <!-- Please leave this line intact -->
 <p>&copy; Hussein Morsy &amp; Tanja Otto &bull; Based on Template design by <a href="http://www.sixshootermedia.com">Six Shooter Media</a>.

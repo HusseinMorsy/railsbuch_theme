@@ -35,17 +35,17 @@
 			</div>
 			
 			<div id="sidebar">
-			<h3>Search</h3>
+			<h3>Suche</h3>
       		<form method="get" id="sform" action="/search">
-       		 <p><label for="q">Search:</label>
+       		 <p><label for="q">Suche:</label>
 				<input type="text" id="q" value="" name="q" size="15" /></p>
 				</form>
-				<h3>Categories</h3>
+				<h3>Kategorien</h3>
 				<ul>
 					{% for category in site.blog_sections %}<li>{{ category | link_to_section  }}</li>{% endfor %}
 				</ul>
 				
-				<h3>Latest Posts</h3>
+				<h3>Aktuelle Beiträge</h3>
 				<ul>
 					{% for latestarticle in site.latest_articles: 5 %}<li>{{ latestarticle | link_to_article}}</li>{% endfor %}
 				</ul>

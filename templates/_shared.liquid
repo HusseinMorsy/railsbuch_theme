@@ -1,6 +1,13 @@
 {% for article in articles %}
 <h2>{{ article | link_to_article }}</h2>
-	<div class="articleinfo">Posted on {{ article.published_at | format_date: 'mdy', true }} by {{ article.author.login }}{% if article.accept_comments %} |<a href="{{ article.url }}#comments" class="commentslink">{{ article.comments_count | pluralize: 'comments' }}  &#187;</a>{% endif %} | <span class="filedto">Filed in {{ article | linked_section_list }}</span></div>
+	<div class="articleinfo">
+    Veröffentlicht am {{ article.published_at | date: '%d.%m.%Y um %H:%M'}}
+	   von {{ article.author.login }}
+	   {% if article.accept_comments %} |
+	    <a href="{{ article.url }}#comments" class="commentslink">{{ article.comments_count | pluralize: 'Kommentar','Kommentare' }}  &#187;</a>
+	   {% endif %} 
+	   <!-- | <span class="filedto">Filed in {{ article | linked_section_list }}</span> -->
+	</div>
 		<div class="entrybody">
 	  {% if article.excerpt %}
 	    {{ article.excerpt }}

@@ -12,7 +12,7 @@
 	  {% if article.excerpt %}
 	    {{ article.excerpt }}
 	    {% unless mode == 'single' %}
-		  <a href="{{ article.url }}">Read the rest of this entry</a>
+		  <a href="{{ article.url }}">weiter (ausführlicher Artikel)</a>
 		  {% endunless %}
 		{% else %}
 		  {% unless mode == 'single' %}{{ article.body }}{% endunless %}
